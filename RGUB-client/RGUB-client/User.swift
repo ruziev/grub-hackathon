@@ -24,5 +24,4 @@ class User {
         self.borrowedBooks = borrowedBooks ?? []
     }
     
-    
 }

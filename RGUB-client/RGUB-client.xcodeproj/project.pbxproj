@@ -19,6 +19,7 @@
 		990DA5371EAB7AE800D95BD0 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA5361EAB7AE800D95BD0 /* Room.swift */; };
 		990DA5391EAB7AF500D95BD0 /* SupportingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */; };
 		990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA53A1EAB7B0000D95BD0 /* SupportingStructures.swift */; };
+		992069871EABA73A0003C6A8 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069861EABA73A0003C6A8 /* modelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		990DA5361EAB7AE800D95BD0 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingMethods.swift; sourceTree = "<group>"; };
 		990DA53A1EAB7B0000D95BD0 /* SupportingStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingStructures.swift; sourceTree = "<group>"; };
+		992069861EABA73A0003C6A8 /* modelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				990DA5361EAB7AE800D95BD0 /* Room.swift */,
 				990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */,
 				990DA53A1EAB7B0000D95BD0 /* SupportingStructures.swift */,
+				992069861EABA73A0003C6A8 /* modelData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */,
 				990DA51F1EAB7AAE00D95BD0 /* ViewController.swift in Sources */,
 				990DA5371EAB7AE800D95BD0 /* Room.swift in Sources */,
+				992069871EABA73A0003C6A8 /* modelData.swift in Sources */,
 				990DA51D1EAB7AAE00D95BD0 /* AppDelegate.swift in Sources */,
 				990DA52F1EAB7AC300D95BD0 /* User.swift in Sources */,
 				990DA5351EAB7AE100D95BD0 /* Event.swift in Sources */,
@@ -354,6 +358,7 @@
 				990DA52D1EAB7AAE00D95BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
