@@ -9,6 +9,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Main-->
+        <scene sceneID="gcW-WY-K7x">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="vuN-iq-J16" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HX9-wB-RfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="459"/>
+        </scene>
         <!--LoginVC-->
         <scene sceneID="iG0-dJ-9VL">
             <objects>
@@ -62,6 +70,9 @@
                                                             <constraint firstAttribute="height" constant="30" id="TcN-hT-g6Y"/>
                                                         </constraints>
                                                         <state key="normal" title="Войти"/>
+                                                        <connections>
+                                                            <segue destination="vuN-iq-J16" kind="show" id="GVq-DF-3r1"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TG-2d-7OU">
                                                         <rect key="frame" x="0.0" y="35" width="240" height="30"/>
