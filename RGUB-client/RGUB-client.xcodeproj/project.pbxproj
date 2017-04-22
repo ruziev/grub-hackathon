@@ -20,6 +20,8 @@
 		990DA5391EAB7AF500D95BD0 /* SupportingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */; };
 		990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA53A1EAB7B0000D95BD0 /* SupportingStructures.swift */; };
 		992069871EABA73A0003C6A8 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069861EABA73A0003C6A8 /* modelData.swift */; };
+		992069891EABB5BD0003C6A8 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992069881EABB5BD0003C6A8 /* Auth.storyboard */; };
+		9920698B1EABB6040003C6A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698A1EABB6040003C6A8 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingMethods.swift; sourceTree = "<group>"; };
 		990DA53A1EAB7B0000D95BD0 /* SupportingStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingStructures.swift; sourceTree = "<group>"; };
 		992069861EABA73A0003C6A8 /* modelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
+		992069881EABB5BD0003C6A8 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		9920698A1EABB6040003C6A8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				990DA51E1EAB7AAE00D95BD0 /* ViewController.swift */,
 				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
+				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
+				9920698A1EABB6040003C6A8 /* LoginVC.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992069891EABB5BD0003C6A8 /* Auth.storyboard in Resources */,
 				990DA5271EAB7AAE00D95BD0 /* LaunchScreen.storyboard in Resources */,
 				990DA5241EAB7AAE00D95BD0 /* Assets.xcassets in Resources */,
 				990DA5221EAB7AAE00D95BD0 /* Main.storyboard in Resources */,
@@ -185,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9920698B1EABB6040003C6A8 /* LoginVC.swift in Sources */,
 				990DA5311EAB7ACB00D95BD0 /* Book.swift in Sources */,
 				990DA5391EAB7AF500D95BD0 /* SupportingMethods.swift in Sources */,
 				990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */,
