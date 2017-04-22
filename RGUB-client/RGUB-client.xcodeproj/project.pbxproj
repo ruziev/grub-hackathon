@@ -22,6 +22,7 @@
 		992069871EABA73A0003C6A8 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069861EABA73A0003C6A8 /* modelData.swift */; };
 		992069891EABB5BD0003C6A8 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992069881EABB5BD0003C6A8 /* Auth.storyboard */; };
 		9920698B1EABB6040003C6A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698A1EABB6040003C6A8 /* LoginVC.swift */; };
+		9920698D1EABD1930003C6A8 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698C1EABD1930003C6A8 /* RegistrationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		992069861EABA73A0003C6A8 /* modelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
 		992069881EABB5BD0003C6A8 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		9920698A1EABB6040003C6A8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9920698C1EABD1930003C6A8 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				990DA51E1EAB7AAE00D95BD0 /* ViewController.swift */,
 				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
 				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
+				9920698C1EABD1930003C6A8 /* RegistrationVC.swift */,
 				9920698A1EABB6040003C6A8 /* LoginVC.swift */,
 			);
 			name = "View Controller";
@@ -199,6 +202,7 @@
 				990DA51F1EAB7AAE00D95BD0 /* ViewController.swift in Sources */,
 				990DA5371EAB7AE800D95BD0 /* Room.swift in Sources */,
 				992069871EABA73A0003C6A8 /* modelData.swift in Sources */,
+				9920698D1EABD1930003C6A8 /* RegistrationVC.swift in Sources */,
 				990DA51D1EAB7AAE00D95BD0 /* AppDelegate.swift in Sources */,
 				990DA52F1EAB7AC300D95BD0 /* User.swift in Sources */,
 				990DA5351EAB7AE100D95BD0 /* Event.swift in Sources */,
