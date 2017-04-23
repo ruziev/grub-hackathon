@@ -10,6 +10,7 @@ import UIKit
 
 class RegistrationVC: UIViewController {
 
+    @IBOutlet weak var loginField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +22,9 @@ class RegistrationVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onRegister(_ sender: UIButton) {
+        modelData.users.append(User(name: loginField.text!, expirationDate: "2020/01/01", photo: modelData.pic, socialLink: nil, borrowedBooks: nil))
+    }
 
     /*
     // MARK: - Navigation
