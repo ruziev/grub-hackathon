@@ -35,6 +35,8 @@
 		992069A31EACB79D0003C6A8 /* AboutContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069A21EACB79D0003C6A8 /* AboutContactVC.swift */; };
 		992069A51EACB7B20003C6A8 /* AboutFeaturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069A41EACB7B20003C6A8 /* AboutFeaturesVC.swift */; };
 		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
+		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
+		D41B8FA61EACB4CA00B08667 /* MyInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		992069A21EACB79D0003C6A8 /* AboutContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContactVC.swift; sourceTree = "<group>"; };
 		992069A41EACB7B20003C6A8 /* AboutFeaturesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutFeaturesVC.swift; sourceTree = "<group>"; };
 		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
+		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
+		D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		990DA51B1EAB7AAE00D95BD0 /* RGUB-client */ = {
 			isa = PBXGroup;
 			children = (
+				D41B8FA41EACB19F00B08667 /* Views */,
 				990DA53C1EAB7B0700D95BD0 /* Model */,
 				990DA53D1EAB7B1D00D95BD0 /* Supporting Files */,
 				990DA53E1EAB7B3600D95BD0 /* View Controller */,
@@ -163,6 +168,14 @@
 				992069961EACB49E0003C6A8 /* About.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D41B8FA41EACB19F00B08667 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +259,7 @@
 				D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */,
 				992069A11EACB7880003C6A8 /* AboutWorkingHoursVC.swift in Sources */,
 				990DA5311EAB7ACB00D95BD0 /* Book.swift in Sources */,
+				D41B8FA61EACB4CA00B08667 /* MyInterestCell.swift in Sources */,
 				990DA5391EAB7AF500D95BD0 /* SupportingMethods.swift in Sources */,
 				990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */,
 				9920699B1EACB72A0003C6A8 /* AboutHistoryVC.swift in Sources */,
