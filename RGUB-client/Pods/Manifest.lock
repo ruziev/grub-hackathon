@@ -1,0 +1,12 @@
+PODS:
+  - SideMenuController (0.2.4)
+
+DEPENDENCIES:
+  - SideMenuController
+
+SPEC CHECKSUMS:
+  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
+
+PODFILE CHECKSUM: 671b0f78a8c2bf4ba1db988898d996ebe0dcb559
+
+COCOAPODS: 1.2.0

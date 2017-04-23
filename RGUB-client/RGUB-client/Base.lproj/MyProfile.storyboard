@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1hg-Pt-aiX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ob4-ae-eOZ">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -163,7 +163,7 @@
                             <constraint firstItem="YTk-KU-t9n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u31-DZ-aQq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Мой профиль" id="OaV-dk-TCU">
+                    <navigationItem key="navigationItem" id="OaV-dk-TCU">
                         <barButtonItem key="backBarButtonItem" title=" " id="5A8-e6-8ey"/>
                     </navigationItem>
                     <connections>
@@ -177,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1113.75" y="122.53521126760563"/>
+            <point key="canvasLocation" x="3645" y="116.19718309859155"/>
         </scene>
         <!--Новый интерес-->
         <scene sceneID="mRs-1E-pNK">
@@ -238,25 +238,184 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IA0-Kn-8wz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="118"/>
+            <point key="canvasLocation" x="4852.5" y="117.25352112676056"/>
+        </scene>
+        <!--Custom Side Menu Controller-->
+        <scene sceneID="gc9-Kt-Vqs">
+            <objects>
+                <viewController id="vPW-o0-hoP" customClass="CustomSideMenuController" customModule="RGUB_client" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OQQ-CU-0SN"/>
+                        <viewControllerLayoutGuide type="bottom" id="CLR-tw-vMB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sLg-Kc-AhE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X1R-AR-n2v"/>
+                    <connections>
+                        <segue destination="ge2-96-Lvy" kind="custom" identifier="embedSideController" customClass="SideContainmentSegue" customModule="SideMenuController" id="1Ba-fY-lLI"/>
+                        <segue destination="vLK-eE-xCZ" kind="custom" identifier="embedInitialCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="GVh-uM-mDQ"/>
+                        <segue destination="LHJ-a7-Fi9" kind="custom" identifier="embedMyProfileCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="661-rn-igv"/>
+                        <segue destination="ISh-Gt-hvi" kind="custom" identifier="embedBookDetailsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="G2g-ah-fc6"/>
+                        <segue destination="0cL-KJ-eAw" kind="custom" identifier="embedEventsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="ssT-Y1-XIr"/>
+                        <segue destination="fad-hC-z8D" kind="custom" identifier="embedAboutCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="r82-e4-wkx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQS-Xo-bBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404.375" y="-219.71830985915494"/>
+        </scene>
+        <!--MyProfile-->
+        <scene sceneID="Y2N-0D-nm8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyProfile" id="LHJ-a7-Fi9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Rl-1o-g4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831" y="225"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="bFR-G8-0Ng">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Events" id="0cL-KJ-eAw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23r-Pk-a35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="250"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="aiE-kl-R6v">
+            <objects>
+                <viewControllerPlaceholder storyboardName="About" id="fad-hC-z8D" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yF-Xk-T34" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="208"/>
+        </scene>
+        <!--BookDetails-->
+        <scene sceneID="Mdy-Bl-c31">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BookDetails" id="ISh-Gt-hvi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CaW-aU-Bl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1253" y="251"/>
+        </scene>
+        <!--MenuVC-->
+        <scene sceneID="kgu-NH-Yrk">
+            <objects>
+                <viewController id="ge2-96-Lvy" customClass="MenuVC" customModule="RGUB_client" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7oK-9B-s1i"/>
+                        <viewControllerLayoutGuide type="bottom" id="OXf-1P-bNO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v8c-S9-Ame">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gwG-hi-hsU">
+                                <rect key="frame" x="66" y="134" width="188" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-1P-ffQ">
+                                        <rect key="frame" x="45.5" y="0.0" width="97" height="30"/>
+                                        <state key="normal" title="Мой профиль"/>
+                                        <connections>
+                                            <action selector="tappedMyProfileButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="0o9-jQ-8lF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-o8-IQy">
+                                        <rect key="frame" x="69" y="30" width="50" height="30"/>
+                                        <state key="normal" title="Афиша"/>
+                                        <connections>
+                                            <action selector="tappedEventsButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="93w-Mg-vRc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNZ-xo-2Zb">
+                                        <rect key="frame" x="44" y="60" width="100" height="30"/>
+                                        <state key="normal" title="На прочтении"/>
+                                        <connections>
+                                            <action selector="tappedReadingButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="AIR-fh-uA8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBc-Q8-S1D">
+                                        <rect key="frame" x="20.5" y="90" width="147" height="30"/>
+                                        <state key="normal" title="Каталог материалов"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uql-wg-5an">
+                                        <rect key="frame" x="24" y="120" width="140" height="30"/>
+                                        <state key="normal" title="Участие в проектах"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5i-TA-hcf">
+                                        <rect key="frame" x="68.5" y="150" width="51" height="30"/>
+                                        <state key="normal" title="Друзья"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-Zz-BBh">
+                                        <rect key="frame" x="40.5" y="180" width="107" height="30"/>
+                                        <state key="normal" title="Рекомендации"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRI-wO-h5c">
+                                        <rect key="frame" x="64" y="210" width="60" height="30"/>
+                                        <state key="normal" title="Помощь"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhU-M0-krt">
+                                        <rect key="frame" x="73.5" y="240" width="41" height="30"/>
+                                        <state key="normal" title="О нас"/>
+                                        <connections>
+                                            <action selector="tappedAboutButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="JzU-WA-XAA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7L-5m-49z">
+                                        <rect key="frame" x="55" y="270" width="78" height="30"/>
+                                        <state key="normal" title="Настройки"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="leading" secondItem="v8c-S9-Ame" secondAttribute="leadingMargin" constant="50" id="Fby-co-fL6"/>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="centerY" secondItem="v8c-S9-Ame" secondAttribute="centerY" id="abm-Oj-Xn2"/>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="centerX" secondItem="v8c-S9-Ame" secondAttribute="centerX" id="qfr-09-0NV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pph-KZ-E5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2355" y="-571.47887323943667"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="aig-da-lNy">
+        <scene sceneID="ltS-Yy-Qvb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hg-Pt-aiX" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vLK-eE-xCZ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pBT-aX-dTE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="prM-3R-OxN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RAw-mL-9SG"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KYV-bJ-HRo"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ig9-ca-xhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d80-Az-wYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360" y="123"/>
+            <point key="canvasLocation" x="2647.5" y="116.19718309859155"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cr3-w8-glf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ob4-ae-eOZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DNE-YM-y1L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vPW-o0-hoP" kind="relationship" relationship="rootViewController" id="YzE-aT-9dD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sOO-Zf-ZxN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406.875" y="-219.71830985915494"/>
         </scene>
     </scenes>
 </document>
