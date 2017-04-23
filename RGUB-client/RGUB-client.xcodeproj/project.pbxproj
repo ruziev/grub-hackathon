@@ -25,6 +25,8 @@
 		9920698D1EABD1930003C6A8 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698C1EABD1930003C6A8 /* RegistrationVC.swift */; };
 		9920698F1EABEFD40003C6A8 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698E1EABEFD40003C6A8 /* MyProfileVC.swift */; };
 		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
+		992069931EAC9D520003C6A8 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992069921EAC9D520003C6A8 /* Events.storyboard */; };
+		992069951EAC9D750003C6A8 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069941EAC9D750003C6A8 /* EventVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		9920698C1EABD1930003C6A8 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		9920698E1EABEFD40003C6A8 /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
+		992069921EAC9D520003C6A8 /* Events.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
+		992069941EAC9D750003C6A8 /* EventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */,
+				992069941EAC9D750003C6A8 /* EventVC.swift */,
 				990DA51E1EAB7AAE00D95BD0 /* ViewController.swift */,
 				9920698C1EABD1930003C6A8 /* RegistrationVC.swift */,
 				9920698A1EABB6040003C6A8 /* LoginVC.swift */,
@@ -131,6 +136,8 @@
 			children = (
 				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
 				990DA5201EAB7AAE00D95BD0 /* MyProfile.storyboard */,
+				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
+				992069921EAC9D520003C6A8 /* Events.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -199,6 +206,8 @@
 				990DA5271EAB7AAE00D95BD0 /* LaunchScreen.storyboard in Resources */,
 				990DA5241EAB7AAE00D95BD0 /* Assets.xcassets in Resources */,
 				990DA5221EAB7AAE00D95BD0 /* MyProfile.storyboard in Resources */,
+				990DA5221EAB7AAE00D95BD0 /* Main.storyboard in Resources */,
+				992069931EAC9D520003C6A8 /* Events.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +232,7 @@
 				9920698F1EABEFD40003C6A8 /* MyProfileVC.swift in Sources */,
 				990DA5351EAB7AE100D95BD0 /* Event.swift in Sources */,
 				990DA5331EAB7AD700D95BD0 /* Author.swift in Sources */,
+				992069951EAC9D750003C6A8 /* EventVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
