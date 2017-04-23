@@ -34,6 +34,8 @@
 		992069A71EACDAE40003C6A8 /* SupportingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA5381EAB7AF500D95BD0 /* SupportingMethods.swift */; };
 		992069A81EACDAE80003C6A8 /* MyInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */; };
 		992069A91EACE5F00003C6A8 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069941EAC9D750003C6A8 /* EventVC.swift */; };
+		992069AB1EACEBD00003C6A8 /* BookDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992069AA1EACEBD00003C6A8 /* BookDetails.storyboard */; };
+		992069AD1EACEBF80003C6A8 /* BookPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069AC1EACEBF80003C6A8 /* BookPageVC.swift */; };
 		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
 		D41B8FA81EACD45400B08667 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA71EACD45400B08667 /* Interest.swift */; };
 		D41B8FAA1EACD46300B08667 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA91EACD46300B08667 /* Genre.swift */; };
@@ -73,6 +75,8 @@
 		992069A01EACB7880003C6A8 /* AboutWorkingHoursVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWorkingHoursVC.swift; sourceTree = "<group>"; };
 		992069A21EACB79D0003C6A8 /* AboutContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContactVC.swift; sourceTree = "<group>"; };
 		992069A41EACB7B20003C6A8 /* AboutFeaturesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutFeaturesVC.swift; sourceTree = "<group>"; };
+		992069AA1EACEBD00003C6A8 /* BookDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BookDetails.storyboard; sourceTree = "<group>"; };
+		992069AC1EACEBF80003C6A8 /* BookPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPageVC.swift; sourceTree = "<group>"; };
 		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
 		D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestCell.swift; sourceTree = "<group>"; };
 		D41B8FA71EACD45400B08667 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 			children = (
 				D4861F531EACECFA004F1A0C /* MenuVC.swift */,
 				D4861F511EACEC33004F1A0C /* CustomSideMenuController.swift */,
+				992069AC1EACEBF80003C6A8 /* BookPageVC.swift */,
 				9920699A1EACB72A0003C6A8 /* AboutHistoryVC.swift */,
 				9920699C1EACB7640003C6A8 /* AboutRoomsVC.swift */,
 				9920699E1EACB7740003C6A8 /* AboutServicesVC.swift */,
@@ -189,6 +194,7 @@
 				990DA5201EAB7AAE00D95BD0 /* MyProfile.storyboard */,
 				992069921EAC9D520003C6A8 /* Events.storyboard */,
 				992069961EACB49E0003C6A8 /* About.storyboard */,
+				992069AA1EACEBD00003C6A8 /* BookDetails.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				990DA5241EAB7AAE00D95BD0 /* Assets.xcassets in Resources */,
 				990DA5221EAB7AAE00D95BD0 /* MyProfile.storyboard in Resources */,
 				990DA5221EAB7AAE00D95BD0 /* MyProfile.storyboard in Resources */,
+				992069AB1EACEBD00003C6A8 /* BookDetails.storyboard in Resources */,
 				992069931EAC9D520003C6A8 /* Events.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992069A91EACE5F00003C6A8 /* EventVC.swift in Sources */,
+				992069AD1EACEBF80003C6A8 /* BookPageVC.swift in Sources */,
 				992069A81EACDAE80003C6A8 /* MyInterestCell.swift in Sources */,
 				992069A71EACDAE40003C6A8 /* SupportingMethods.swift in Sources */,
 				992069A61EACDAE00003C6A8 /* Book.swift in Sources */,

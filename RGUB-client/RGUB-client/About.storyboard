@@ -126,12 +126,12 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">107061 Москва, ул. Б. Черкизовская, дом 4, корпус 1 
+                                        <string key="content">107061 Москва, ул. Б. Черкизовская, дом 4, корпус 1 
 Телефон для справок: +7 499 922-66-77 
 Факс: +7 499 161-01-01 
 E-mail: info@rgub.ru 
 Филиал библиотеки — МИКЦ «Особняк В.Д. Носова» 
-107023 Москва, ул. Электрозаводская, 12, стр. 1 Телефон для справок: +7 495 964-01-01 E-mail: mansion@rgub.ru</mutableString>
+107023 Москва, ул. Электрозаводская, 12, стр. 1 Телефон для справок: +7 495 964-01-01 E-mail: mansion@rgub.ru</string>
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="16"/>
                                         </attributes>
@@ -268,7 +268,17 @@ E-mail: info@rgub.ru 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gw7-aR-6VR">
                                         <rect key="frame" x="0.0" y="124" width="240" height="356"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <mutableString key="text">Федеральное государственное бюджетное учреждение культуры «Российская государственная библиотека для молодёжи» — самая крупная в стране библиотека, ориентированная на эту возрастную категорию, одна из 8 российских библиотек федерального уровня. Однако посещать её могут все граждане старше 14 лет независимо от места проживания.
+
+Создана библиотека в 1966 году на базе юношеского филиала Государственной публичной исторической библиотеки. Ее организатор и первый директор — Ирина Викторовна Бахмутская. С 2006 года библиотеку возглавляет Ирина Борисовна Михнова.
+
+В фонде РГБМ — около 900 тыс. изданий, в том числе свыше 650 тыс. экземпляров книг и журналов (ок. 500 названий). Пользователям доступны более 1000 CD и DVD с аудиокнигами, 400 видеофильмов, более 70 тыс. грампластинок, 36 тыс. нот.
+
+Всем обладателям читательского билета здесь обеспечен доступ к ресурсам интернета и электронным библиотекам (свыше 1 млн. изданий) как с библиотечных компьютеров, так и — благодаря бесплатному wi-fi — со своих ноутбуков.
+
+У зарегистрированных пользователей библиотеки есть уникальная возможность прямо из дома работать с ресурсами электронно-библиотечных систем «Библиороссика», «Знаниум», «Университетская библиотека on-line», «ЛитРес Библиотека» — достаточно зарегистрироваться в личном кабинете.
+
+На базе технологии RFID (англ. Radio Frequency IDentification — радиочастотная идентификация) организован полный цикл читательского самообслуживания при получении и сдаче изданий. Круглосуточно работает станция возврата книг, расположенная на внешней стене здания у входа в библиотеку.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
