@@ -23,7 +23,6 @@ class MyProfileVC: UIViewController {
         super.viewDidLoad()
         
         configureProfile()
-        sideMenuController?.toggle()
     }
     
     func configureProfile() {

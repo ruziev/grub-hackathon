@@ -275,15 +275,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzt-7h-Rw2">
-                                <rect key="frame" x="139" y="274" width="43" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gwG-hi-hsU">
+                                <rect key="frame" x="66" y="134" width="188" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-1P-ffQ">
+                                        <rect key="frame" x="45.5" y="0.0" width="97" height="30"/>
+                                        <state key="normal" title="Мой профиль"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-o8-IQy">
+                                        <rect key="frame" x="69" y="30" width="50" height="30"/>
+                                        <state key="normal" title="Афиша"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNZ-xo-2Zb">
+                                        <rect key="frame" x="44" y="60" width="100" height="30"/>
+                                        <state key="normal" title="На прочтении"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBc-Q8-S1D">
+                                        <rect key="frame" x="20.5" y="90" width="147" height="30"/>
+                                        <state key="normal" title="Каталог материалов"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uql-wg-5an">
+                                        <rect key="frame" x="24" y="120" width="140" height="30"/>
+                                        <state key="normal" title="Участие в проектах"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5i-TA-hcf">
+                                        <rect key="frame" x="68.5" y="150" width="51" height="30"/>
+                                        <state key="normal" title="Друзья"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-Zz-BBh">
+                                        <rect key="frame" x="40.5" y="180" width="107" height="30"/>
+                                        <state key="normal" title="Рекомендации"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRI-wO-h5c">
+                                        <rect key="frame" x="64" y="210" width="60" height="30"/>
+                                        <state key="normal" title="Помощь"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhU-M0-krt">
+                                        <rect key="frame" x="73.5" y="240" width="41" height="30"/>
+                                        <state key="normal" title="О нас"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7L-5m-49z">
+                                        <rect key="frame" x="55" y="270" width="78" height="30"/>
+                                        <state key="normal" title="Настройки"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="leading" secondItem="v8c-S9-Ame" secondAttribute="leadingMargin" constant="50" id="Fby-co-fL6"/>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="centerY" secondItem="v8c-S9-Ame" secondAttribute="centerY" id="abm-Oj-Xn2"/>
+                            <constraint firstItem="gwG-hi-hsU" firstAttribute="centerX" secondItem="v8c-S9-Ame" secondAttribute="centerX" id="qfr-09-0NV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pph-KZ-E5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
