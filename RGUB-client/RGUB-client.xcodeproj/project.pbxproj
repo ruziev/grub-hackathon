@@ -34,7 +34,6 @@
 		992069A31EACB79D0003C6A8 /* AboutContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069A21EACB79D0003C6A8 /* AboutContactVC.swift */; };
 		992069A51EACB7B20003C6A8 /* AboutFeaturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069A41EACB7B20003C6A8 /* AboutFeaturesVC.swift */; };
 		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
-		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
 		D41B8FA61EACB4CA00B08667 /* MyInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */; };
 		D41B8FA81EACD45400B08667 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA71EACD45400B08667 /* Interest.swift */; };
 		D41B8FAA1EACD46300B08667 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA91EACD46300B08667 /* Genre.swift */; };
@@ -69,7 +68,6 @@
 		992069A01EACB7880003C6A8 /* AboutWorkingHoursVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWorkingHoursVC.swift; sourceTree = "<group>"; };
 		992069A21EACB79D0003C6A8 /* AboutContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContactVC.swift; sourceTree = "<group>"; };
 		992069A41EACB7B20003C6A8 /* AboutFeaturesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutFeaturesVC.swift; sourceTree = "<group>"; };
-		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
 		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
 		D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestCell.swift; sourceTree = "<group>"; };
 		D41B8FA71EACD45400B08667 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
