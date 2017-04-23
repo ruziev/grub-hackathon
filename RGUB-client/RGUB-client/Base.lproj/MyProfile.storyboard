@@ -261,6 +261,7 @@
                         <segue destination="ISh-Gt-hvi" kind="custom" identifier="embedBookDetailsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="G2g-ah-fc6"/>
                         <segue destination="0cL-KJ-eAw" kind="custom" identifier="embedEventsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="ssT-Y1-XIr"/>
                         <segue destination="fad-hC-z8D" kind="custom" identifier="embedAboutCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="r82-e4-wkx"/>
+                        <segue destination="x5D-sc-e12" kind="custom" identifier="embedSearchCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="Bog-CX-X9I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nQS-Xo-bBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -282,6 +283,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23r-Pk-a35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1576" y="250"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="hgq-hy-6BI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Search" id="x5D-sc-e12" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y5l-PR-b67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1987" y="39"/>
         </scene>
         <!--About-->
         <scene sceneID="aiE-kl-R6v">
@@ -338,6 +347,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBc-Q8-S1D">
                                         <rect key="frame" x="20.5" y="90" width="147" height="30"/>
                                         <state key="normal" title="Каталог материалов"/>
+                                        <connections>
+                                            <action selector="tappedSearchButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="xPE-ZL-igH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uql-wg-5an">
                                         <rect key="frame" x="24" y="120" width="140" height="30"/>

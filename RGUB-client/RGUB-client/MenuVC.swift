@@ -21,6 +21,9 @@ class MenuVC: UIViewController {
         sideMenuController?.performSegue(withIdentifier: "embedBookDetailsCenterController", sender: nil)
     }
 
+    @IBAction func tappedSearchButton(_ sender: UIButton) {
+        sideMenuController?.performSegue(withIdentifier: "embedSearchCenterController", sender: nil)
+    }
     @IBAction func tappedAboutButton(_ sender: UIButton) {
         sideMenuController?.performSegue(withIdentifier: "embedAboutCenterController", sender: nil)
     }
