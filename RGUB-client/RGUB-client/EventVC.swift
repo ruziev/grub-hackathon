@@ -1,27 +1,26 @@
 //
-//  LoginVC.swift
+//  EventVC.swift
 //  RGUB-client
 //
-//  Created by Ruziev on 4/22/17.
+//  Created by Ruziev on 4/23/17.
 //  Copyright © 2017 Ruziev. All rights reserved.
 //
 
 import UIKit
 
-class LoginVC: UIViewController {
+class EventVC: UIViewController {
 
-    @IBOutlet weak var loginField: UITextField!
-    @IBAction func onEnter(_ sender: UIButton) {
-        for user in modelData.users {
-            if user.name == loginField.text {
-                modelData.me = user
-            }
-        }
-    }
+    @IBOutlet weak var eventPicture: UIImageView!
+    @IBOutlet weak var eventDate: UILabel!
+    @IBOutlet weak var eventTitle: UILabel!
+    @IBOutlet weak var eventText: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        eventDate.text = modelData.events[0].date
+        eventTitle.text = modelData.events[0].title
+        eventText.text = modelData.events[0].description
+        eventPicture.image = modelData.events[0].picture
     }
 
     override func didReceiveMemoryWarning() {
