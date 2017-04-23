@@ -30,7 +30,7 @@ class User {
     var age: Int
     var address: String
     
-    var interests: [SupportingStructures.Interest] = [
+    var interests: [Interest] = [
         .book(modelData.books[0]),
         .book(modelData.books[3]),
         .book(modelData.books[8]),
