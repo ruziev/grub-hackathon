@@ -19,8 +19,16 @@ class NewInterestVC: UIViewController {
         }
         switch categoryPickerView.selectedRow(inComponent: 0) {
         case 0:
-            let currGenre = SupportingStructures.Genre(rawValue: title)!
-            let currInterest = SupportingStructures.Interest.genre(currGenre)
+            let currGenre = Genre(rawValue: title)!
+            let currInterest = Interest.genre(currGenre)
+            modelData.me.interests.append(currInterest)
+        case 1:
+            let currAuthor = Author(name: title)
+            let currInterest = Interest.author(currAuthor)
+            modelData.me.interests.append(currInterest)
+        case 2:
+            let currBook = Book(title: title)
+            let currInterest = Interest.book(currBook)
             modelData.me.interests.append(currInterest)
         default:
             return
