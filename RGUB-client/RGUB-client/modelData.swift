@@ -11,6 +11,8 @@ import UIKit
 
 class modelData {
     
+    static var me: User = users[0]
+    
     static var pic = UIImage()
     
     static var authors = [

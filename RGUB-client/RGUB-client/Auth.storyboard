@@ -71,6 +71,7 @@
                                                         </constraints>
                                                         <state key="normal" title="Войти"/>
                                                         <connections>
+                                                            <action selector="onEnter:" destination="GF9-XJ-RUV" eventType="touchUpInside" id="svY-up-xvi"/>
                                                             <segue destination="vuN-iq-J16" kind="show" id="GVq-DF-3r1"/>
                                                         </connections>
                                                     </button>
@@ -109,6 +110,9 @@
                     <navigationItem key="navigationItem" id="0pW-pN-ZBA">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="k92-rI-fSB"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="loginField" destination="96o-rd-xOj" id="HCP-By-mUm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40A-cW-ObN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
