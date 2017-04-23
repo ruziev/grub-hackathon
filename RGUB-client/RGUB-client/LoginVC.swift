@@ -13,7 +13,7 @@ class LoginVC: UIViewController {
     @IBOutlet weak var loginField: UITextField!
     @IBAction func onEnter(_ sender: UIButton) {
         for user in modelData.users {
-            if user.name == loginField.text {
+            if user.name == loginField.text! {
                 modelData.me = user
             }
         }

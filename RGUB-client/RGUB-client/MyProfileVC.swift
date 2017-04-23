@@ -10,7 +10,7 @@ import UIKit
 
 class MyProfileVC: UIViewController {
 
-    let me = modelData.me
+    var me = modelData.me
 
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var lastNameLabel: UILabel!
@@ -19,6 +19,19 @@ class MyProfileVC: UIViewController {
     @IBOutlet weak var adressLabel: UILabel!
     @IBOutlet weak var interestsTableView: UITableView!
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        configureProfile()
+    }
+    
+    func configureProfile() {
+        lastNameLabel.text = me.lastName
+        firstNameLabel.text = me.firstName
+        ageLabel.text = "\(me.age) лет"
+        adressLabel.text = me.address
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
