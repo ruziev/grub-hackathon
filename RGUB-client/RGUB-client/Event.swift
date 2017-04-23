@@ -13,10 +13,12 @@ class Event {
     var date: String
     var title: String
     var url: String
+    var description: String
     
-    init(date: String, title: String, url: String) {
+    init(date: String, title: String, url: String, description: String) {
         self.date = date
         self.title = title
         self.url = url
+        self.description = description
     }
 }
