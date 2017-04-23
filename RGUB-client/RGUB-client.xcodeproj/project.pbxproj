@@ -37,6 +37,8 @@
 		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
 		D41B8FA81EACD45400B08667 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA71EACD45400B08667 /* Interest.swift */; };
 		D41B8FAA1EACD46300B08667 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA91EACD46300B08667 /* Genre.swift */; };
+		D4861F521EACEC33004F1A0C /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4861F511EACEC33004F1A0C /* CustomSideMenuController.swift */; };
+		D4861F541EACECFA004F1A0C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4861F531EACECFA004F1A0C /* MenuVC.swift */; };
 		F295DBC994FB5BA9761ED612 /* Pods_RGUB_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84218A7F13FF75A6A973E943 /* Pods_RGUB_client.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestCell.swift; sourceTree = "<group>"; };
 		D41B8FA71EACD45400B08667 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
 		D41B8FA91EACD46300B08667 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		D4861F511EACEC33004F1A0C /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		D4861F531EACECFA004F1A0C /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		E54619C335E6BE2B8F9570B0 /* Pods-RGUB-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGUB-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGUB-client/Pods-RGUB-client.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +163,8 @@
 		990DA53E1EAB7B3600D95BD0 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D4861F531EACECFA004F1A0C /* MenuVC.swift */,
+				D4861F511EACEC33004F1A0C /* CustomSideMenuController.swift */,
 				9920699A1EACB72A0003C6A8 /* AboutHistoryVC.swift */,
 				9920699C1EACB7640003C6A8 /* AboutRoomsVC.swift */,
 				9920699E1EACB7740003C6A8 /* AboutServicesVC.swift */,
@@ -343,12 +349,14 @@
 				D41B8FA81EACD45400B08667 /* Interest.swift in Sources */,
 				990DA51F1EAB7AAE00D95BD0 /* ViewController.swift in Sources */,
 				992069A51EACB7B20003C6A8 /* AboutFeaturesVC.swift in Sources */,
+				D4861F521EACEC33004F1A0C /* CustomSideMenuController.swift in Sources */,
 				990DA5371EAB7AE800D95BD0 /* Room.swift in Sources */,
 				D41B8FAA1EACD46300B08667 /* Genre.swift in Sources */,
 				992069871EABA73A0003C6A8 /* modelData.swift in Sources */,
 				992069A31EACB79D0003C6A8 /* AboutContactVC.swift in Sources */,
 				9920698D1EABD1930003C6A8 /* RegistrationVC.swift in Sources */,
 				9920699D1EACB7640003C6A8 /* AboutRoomsVC.swift in Sources */,
+				D4861F541EACECFA004F1A0C /* MenuVC.swift in Sources */,
 				9920699F1EACB7740003C6A8 /* AboutServicesVC.swift in Sources */,
 				990DA51D1EAB7AAE00D95BD0 /* AppDelegate.swift in Sources */,
 				990DA52F1EAB7AC300D95BD0 /* User.swift in Sources */,
