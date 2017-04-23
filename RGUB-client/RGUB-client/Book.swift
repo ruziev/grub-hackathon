@@ -18,7 +18,7 @@ class Book {
     var restriction: String?
     var bookVolume: Int?
     var authors: [Author]
-    var genres: [SupportingStructures.genre]
+    var genres: [SupportingStructures.Genre]
     var tags: [String]
     
     init(title: String, description: String?, image: UIImage, isbn: String?, restriction: String?, bookVolume: Int?, authors: [Author], genres: [String], tags: [String]?) {
@@ -33,7 +33,7 @@ class Book {
         
         self.genres = []
         for eachGenre in genres {
-            self.genres.append(SupportingStructures.genre(rawValue: eachGenre)!)
+            self.genres.append(SupportingStructures.Genre(rawValue: eachGenre)!)
         }
         
         self.tags = tags ?? []
