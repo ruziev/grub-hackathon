@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Z9o-5f-jze">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EventVC-->
+        <scene sceneID="aOX-sB-jh3">
+            <objects>
+                <viewController id="jyX-3R-g9I" customClass="EventVC" customModule="RGUB_client" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REX-CW-iJN"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Dr-YU-pzN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i7v-dq-fcs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="ads-PZ-mjC">
+                                <rect key="frame" x="24" y="88" width="327" height="555"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-ts-X69">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="477"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DmV-09-fHh">
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="jrS-F7-cXz"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="n4O-Lr-lgp">
+                                                <rect key="frame" x="0.0" y="136" width="327" height="341"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата: Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-bg-1BK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="327" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="Y9j-zm-dQe"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Время: 15:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyL-G8-SAb">
+                                                        <rect key="frame" x="0.0" y="29" width="327" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="f6U-QQ-ut6"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKj-Ry-Kfu">
+                                                        <rect key="frame" x="0.0" y="58" width="327" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="AoD-7G-f77"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g5N-PR-ah8">
+                                                        <rect key="frame" x="0.0" y="87" width="327" height="254"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="g5N-PR-ah8" firstAttribute="leading" secondItem="n4O-Lr-lgp" secondAttribute="leading" id="bn4-1R-Y9K"/>
+                                                    <constraint firstAttribute="trailing" secondItem="g5N-PR-ah8" secondAttribute="trailing" id="c6x-T2-cYB"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yi6-AW-Ico">
+                                        <rect key="frame" x="0.0" y="525" width="327" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="9IW-u1-zYE"/>
+                                        </constraints>
+                                        <state key="normal" title="Добавить в календарь"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Dr-YU-pzN" firstAttribute="top" secondItem="ads-PZ-mjC" secondAttribute="bottom" constant="24" id="Fqx-jw-ykb"/>
+                            <constraint firstAttribute="trailing" secondItem="ads-PZ-mjC" secondAttribute="trailing" constant="24" id="v4W-ib-bLv"/>
+                            <constraint firstItem="ads-PZ-mjC" firstAttribute="top" secondItem="REX-CW-iJN" secondAttribute="bottom" constant="24" id="zdS-7W-cHV"/>
+                            <constraint firstItem="ads-PZ-mjC" firstAttribute="leading" secondItem="i7v-dq-fcs" secondAttribute="leading" constant="24" id="zgU-1Z-XbJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jfe-Ne-N6A"/>
+                    <connections>
+                        <outlet property="eventDate" destination="NCi-bg-1BK" id="gcV-vG-wD3"/>
+                        <outlet property="eventPicture" destination="DmV-09-fHh" id="kh6-jY-BIa"/>
+                        <outlet property="eventText" destination="g5N-PR-ah8" id="QVv-gv-j5h"/>
+                        <outlet property="eventTitle" destination="XKj-Ry-Kfu" id="LXw-pu-Rr3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="soS-7O-Kkq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826.39999999999998" y="80.50974512743629"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xan-Y3-ABp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z9o-5f-jze" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CyH-DM-duE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jyX-3R-g9I" kind="relationship" relationship="rootViewController" id="0Wo-fk-Bhd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7L-UA-I9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112.8" y="80.50974512743629"/>
+        </scene>
+    </scenes>
+</document>

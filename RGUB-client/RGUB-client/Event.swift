@@ -13,10 +13,14 @@ class Event {
     var date: String
     var title: String
     var url: String
+    var description: String
+    var picture: UIImage
     
-    init(date: String, title: String, url: String) {
+    init(date: String, title: String, url: String, description: String, picture: UIImage?) {
         self.date = date
         self.title = title
         self.url = url
+        self.description = description
+        self.picture = picture ?? modelData.pic
     }
 }

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Jcy-mi-2Da">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book PageVC-->
+        <scene sceneID="eqH-XE-OgG">
+            <objects>
+                <viewController id="C6x-bD-jot" customClass="BookPageVC" customModule="RGUB_client" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JYK-tb-gSo"/>
+                        <viewControllerLayoutGuide type="bottom" id="pKr-Gh-A4E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nec-IA-dPF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Mbp-jo-nqu">
+                                <rect key="frame" x="8" y="72" width="304" height="488"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dbv-G6-ZUe">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="160"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="children_bookcover" translatesAutoresizingMaskIntoConstraints="NO" id="ihD-r1-YAk">
+                                                <rect key="frame" x="0.0" y="0.0" width="152" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="Tgu-zR-sFf"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="lUF-cb-Jxe">
+                                                <rect key="frame" x="152" y="0.0" width="152" height="160"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M1h-xl-kj5">
+                                                        <rect key="frame" x="27.5" y="0.0" width="124.5" height="75"/>
+                                                        <subviews>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="До окончания бронирования:" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALt-Ki-9SX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="124.5" height="54.5"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 дня" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnf-hx-WAh">
+                                                                <rect key="frame" x="0.0" y="54.5" width="124.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ym-1n-CcQ">
+                                                        <rect key="frame" x="52" y="128" width="100" height="32"/>
+                                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="pwi-y9-f0R"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <state key="normal" title="Продлить"/>
+                                                        <connections>
+                                                            <action selector="onKeepOn:" destination="C6x-bD-jot" eventType="touchUpInside" id="Oqf-Q9-pZb"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="lUF-cb-Jxe" firstAttribute="height" secondItem="ihD-r1-YAk" secondAttribute="height" id="2DZ-q8-Xyl"/>
+                                            <constraint firstAttribute="bottom" secondItem="lUF-cb-Jxe" secondAttribute="bottom" id="yeE-Cg-Ket"/>
+                                        </constraints>
+                                    </stackView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J1T-SA-Ty2">
+                                        <rect key="frame" x="0.0" y="184" width="304" height="304"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">“A close look at how show business power corrupts . . . The dishiest read of the year.” – Janet Maslin, “Ten Favorite Books of the Year,” New York Times
+
+“Here’s Johnny!” Probably everyone in America knows the phrase, whether they watched every episode of The Tonight Show or none because they had to go to bed early on school nights. From 1962 to 1992, Johnny Carson and his Tonight Show dominated the American consciousness.
+
+Henry Bushkin was Carson’s best friend and lawyer during that period, and his book is a tautly rendered and remarkably nuanced portrait of Carson, revealing not only how he truly was, but why. Bushkin explains why Carson, a voracious (and very talented) womanizer, felt he always had to be married; why he couldn’t visit his son in the hospital and wouldn’t attend his mother’s funeral; and much more. Johnny Carson is by turns shocking, poignant, and uproarious — written with a novelist’s eye for detail, a screenwriter’s ear for dialogue, and a knack for comic timing that Carson himself would relish.
+
+“A fascinating book about a complex man.” — Pittsburgh Post-Gazette
+
+“Like The Tonight Show, the book has many a merry moment . . . [Johnny Carson] was also one of a kind, and is missed. This book brings a bit of him back.” — St. Louis Post-Dispatch
+
+A People magazine Top Ten Book of the Year</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pKr-Gh-A4E" firstAttribute="top" secondItem="Mbp-jo-nqu" secondAttribute="bottom" constant="8" id="2ER-DP-GOt"/>
+                            <constraint firstItem="Mbp-jo-nqu" firstAttribute="top" secondItem="JYK-tb-gSo" secondAttribute="bottom" constant="8" id="fAo-NN-BNM"/>
+                            <constraint firstAttribute="trailing" secondItem="Mbp-jo-nqu" secondAttribute="trailing" constant="8" id="lzI-xl-A0M"/>
+                            <constraint firstItem="Mbp-jo-nqu" firstAttribute="leading" secondItem="nec-IA-dPF" secondAttribute="leading" constant="8" id="rbe-aJ-YoG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Jo-n7-7O1"/>
+                    <connections>
+                        <outlet property="daysLeft" destination="Jnf-hx-WAh" id="Kr6-Kw-F4m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNk-wx-pkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1125" y="104.5774647887324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="flW-c3-8J0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jcy-mi-2Da" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jXD-Pz-5a9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C6x-bD-jot" kind="relationship" relationship="rootViewController" id="t66-ra-5SN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppR-pU-SAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.5" y="104.5774647887324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="children_bookcover" width="678" height="1083"/>
+    </resources>
+</document>
