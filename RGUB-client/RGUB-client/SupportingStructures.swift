@@ -9,7 +9,7 @@
 import Foundation
 
 class SupportingStructures {
-    enum genre: String {
+    enum Genre: String {
         case scienceFiction = "Science fiction"
         case satire = "Satire"
         case drama = "Drama"
@@ -41,5 +41,11 @@ class SupportingStructures {
         case biographies = "Biographies"
         case autobiographies = "Autobiographies"
         case fantasy = "Fantasy"
+    }
+    
+    enum Interest {
+        case genre(Genre)
+        case author(Author)
+        case book(Book)
     }
 }

@@ -16,7 +16,7 @@ class EventVC: UIViewController {
     @IBOutlet weak var eventText: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         eventDate.text = modelData.events[0].date
         eventTitle.text = modelData.events[0].title
         eventText.text = modelData.events[0].description
