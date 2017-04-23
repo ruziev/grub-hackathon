@@ -10,26 +10,18 @@ import UIKit
 
 class MenuVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBAction func tappedMyProfileButton(_ sender: UIButton) {
+        sideMenuController?.performSegue(withIdentifier: "embedMyProfileCenterController", sender: nil)
+    }
+    @IBAction func tappedEventsButton(_ sender: UIButton) {
+        sideMenuController?.performSegue(withIdentifier: "embedEventsCenterController", sender: nil)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func tappedReadingButton(_ sender: UIButton) {
+        sideMenuController?.performSegue(withIdentifier: "embedBookDetailsCenterController", sender: nil)
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func tappedAboutButton(_ sender: UIButton) {
+        sideMenuController?.performSegue(withIdentifier: "embedAboutCenterController", sender: nil)
     }
-    */
-
 }

@@ -257,11 +257,47 @@
                     <connections>
                         <segue destination="ge2-96-Lvy" kind="custom" identifier="embedSideController" customClass="SideContainmentSegue" customModule="SideMenuController" id="1Ba-fY-lLI"/>
                         <segue destination="vLK-eE-xCZ" kind="custom" identifier="embedInitialCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="GVh-uM-mDQ"/>
+                        <segue destination="LHJ-a7-Fi9" kind="custom" identifier="embedMyProfileCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="661-rn-igv"/>
+                        <segue destination="ISh-Gt-hvi" kind="custom" identifier="embedBookDetailsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="G2g-ah-fc6"/>
+                        <segue destination="0cL-KJ-eAw" kind="custom" identifier="embedEventsCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="ssT-Y1-XIr"/>
+                        <segue destination="fad-hC-z8D" kind="custom" identifier="embedAboutCenterController" customClass="CenterContainmentSegue" customModule="SideMenuController" id="r82-e4-wkx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nQS-Xo-bBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1404.375" y="-219.71830985915494"/>
+        </scene>
+        <!--MyProfile-->
+        <scene sceneID="Y2N-0D-nm8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyProfile" id="LHJ-a7-Fi9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Rl-1o-g4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831" y="225"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="bFR-G8-0Ng">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Events" id="0cL-KJ-eAw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23r-Pk-a35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="250"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="aiE-kl-R6v">
+            <objects>
+                <viewControllerPlaceholder storyboardName="About" id="fad-hC-z8D" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yF-Xk-T34" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="208"/>
+        </scene>
+        <!--BookDetails-->
+        <scene sceneID="Mdy-Bl-c31">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BookDetails" id="ISh-Gt-hvi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CaW-aU-Bl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1253" y="251"/>
         </scene>
         <!--MenuVC-->
         <scene sceneID="kgu-NH-Yrk">
@@ -281,14 +317,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-1P-ffQ">
                                         <rect key="frame" x="45.5" y="0.0" width="97" height="30"/>
                                         <state key="normal" title="Мой профиль"/>
+                                        <connections>
+                                            <action selector="tappedMyProfileButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="0o9-jQ-8lF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-o8-IQy">
                                         <rect key="frame" x="69" y="30" width="50" height="30"/>
                                         <state key="normal" title="Афиша"/>
+                                        <connections>
+                                            <action selector="tappedEventsButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="93w-Mg-vRc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNZ-xo-2Zb">
                                         <rect key="frame" x="44" y="60" width="100" height="30"/>
                                         <state key="normal" title="На прочтении"/>
+                                        <connections>
+                                            <action selector="tappedReadingButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="AIR-fh-uA8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBc-Q8-S1D">
                                         <rect key="frame" x="20.5" y="90" width="147" height="30"/>
@@ -313,6 +358,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhU-M0-krt">
                                         <rect key="frame" x="73.5" y="240" width="41" height="30"/>
                                         <state key="normal" title="О нас"/>
+                                        <connections>
+                                            <action selector="tappedAboutButton:" destination="ge2-96-Lvy" eventType="touchUpInside" id="JzU-WA-XAA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7L-5m-49z">
                                         <rect key="frame" x="55" y="270" width="78" height="30"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C6x-bD-jot">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Jcy-mi-2Da">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Mbp-jo-nqu">
-                                <rect key="frame" x="8" y="28" width="304" height="532"/>
+                                <rect key="frame" x="8" y="72" width="304" height="488"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dbv-G6-ZUe">
                                         <rect key="frame" x="0.0" y="0.0" width="304" height="160"/>
@@ -74,9 +74,9 @@
                                         </constraints>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J1T-SA-Ty2">
-                                        <rect key="frame" x="0.0" y="184" width="304" height="348"/>
+                                        <rect key="frame" x="0.0" y="184" width="304" height="304"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">“A close look at how show business power corrupts . . . The dishiest read of the year.” – Janet Maslin, “Ten Favorite Books of the Year,” New York Times
+                                        <string key="text">“A close look at how show business power corrupts . . . The dishiest read of the year.” – Janet Maslin, “Ten Favorite Books of the Year,” New York Times
 
 “Here’s Johnny!” Probably everyone in America knows the phrase, whether they watched every episode of The Tonight Show or none because they had to go to bed early on school nights. From 1962 to 1992, Johnny Carson and his Tonight Show dominated the American consciousness.
 
@@ -86,7 +86,7 @@ Henry Bushkin was Carson’s best friend and lawyer during that period, and his 
 
 “Like The Tonight Show, the book has many a merry moment . . . [Johnny Carson] was also one of a kind, and is missed. This book brings a bit of him back.” — St. Louis Post-Dispatch
 
-A People magazine Top Ten Book of the Year</mutableString>
+A People magazine Top Ten Book of the Year</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -101,11 +101,30 @@ A People magazine Top Ten Book of the Year</mutableString>
                             <constraint firstItem="Mbp-jo-nqu" firstAttribute="leading" secondItem="nec-IA-dPF" secondAttribute="leading" constant="8" id="rbe-aJ-YoG"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="1Jo-n7-7O1"/>
                     <connections>
                         <outlet property="daysLeft" destination="Jnf-hx-WAh" id="Kr6-Kw-F4m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNk-wx-pkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1125" y="104.5774647887324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="flW-c3-8J0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jcy-mi-2Da" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jXD-Pz-5a9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C6x-bD-jot" kind="relationship" relationship="rootViewController" id="t66-ra-5SN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppR-pU-SAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="127.5" y="104.5774647887324"/>
         </scene>
