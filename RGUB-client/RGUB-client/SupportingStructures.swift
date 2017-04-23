@@ -48,5 +48,4 @@ class SupportingStructures {
         case author(Author)
         case book(Book)
     }
-    
 }
