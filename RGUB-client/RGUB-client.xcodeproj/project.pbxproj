@@ -24,9 +24,10 @@
 		9920698B1EABB6040003C6A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698A1EABB6040003C6A8 /* LoginVC.swift */; };
 		9920698D1EABD1930003C6A8 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698C1EABD1930003C6A8 /* RegistrationVC.swift */; };
 		9920698F1EABEFD40003C6A8 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920698E1EABEFD40003C6A8 /* MyProfileVC.swift */; };
-		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
 		992069931EAC9D520003C6A8 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992069921EAC9D520003C6A8 /* Events.storyboard */; };
 		992069951EAC9D750003C6A8 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992069941EAC9D750003C6A8 /* EventVC.swift */; };
+		D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */; };
+		D41B8FA61EACB4CA00B08667 /* MyInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +50,10 @@
 		9920698A1EABB6040003C6A8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9920698C1EABD1930003C6A8 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		9920698E1EABEFD40003C6A8 /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
-		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
 		992069921EAC9D520003C6A8 /* Events.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
 		992069941EAC9D750003C6A8 /* EventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		D41B8FA21EACA1EA00B08667 /* NewInterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInterestVC.swift; sourceTree = "<group>"; };
+		D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		990DA51B1EAB7AAE00D95BD0 /* RGUB-client */ = {
 			isa = PBXGroup;
 			children = (
+				D41B8FA41EACB19F00B08667 /* Views */,
 				990DA53C1EAB7B0700D95BD0 /* Model */,
 				990DA53D1EAB7B1D00D95BD0 /* Supporting Files */,
 				990DA53E1EAB7B3600D95BD0 /* View Controller */,
@@ -136,10 +139,17 @@
 			children = (
 				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
 				990DA5201EAB7AAE00D95BD0 /* MyProfile.storyboard */,
-				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
 				992069921EAC9D520003C6A8 /* Events.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D41B8FA41EACB19F00B08667 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D41B8FA51EACB4CA00B08667 /* MyInterestCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +216,7 @@
 				990DA5271EAB7AAE00D95BD0 /* LaunchScreen.storyboard in Resources */,
 				990DA5241EAB7AAE00D95BD0 /* Assets.xcassets in Resources */,
 				990DA5221EAB7AAE00D95BD0 /* MyProfile.storyboard in Resources */,
-				990DA5221EAB7AAE00D95BD0 /* Main.storyboard in Resources */,
+				990DA5221EAB7AAE00D95BD0 /* MyProfile.storyboard in Resources */,
 				992069931EAC9D520003C6A8 /* Events.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +231,7 @@
 				9920698B1EABB6040003C6A8 /* LoginVC.swift in Sources */,
 				D41B8FA31EACA1EA00B08667 /* NewInterestVC.swift in Sources */,
 				990DA5311EAB7ACB00D95BD0 /* Book.swift in Sources */,
+				D41B8FA61EACB4CA00B08667 /* MyInterestCell.swift in Sources */,
 				990DA5391EAB7AF500D95BD0 /* SupportingMethods.swift in Sources */,
 				990DA53B1EAB7B0000D95BD0 /* SupportingStructures.swift in Sources */,
 				990DA51F1EAB7AAE00D95BD0 /* ViewController.swift in Sources */,
