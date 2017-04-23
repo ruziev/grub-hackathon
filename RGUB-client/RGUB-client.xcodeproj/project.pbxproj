@@ -81,6 +81,7 @@
 				990DA53C1EAB7B0700D95BD0 /* Model */,
 				990DA53D1EAB7B1D00D95BD0 /* Supporting Files */,
 				990DA53E1EAB7B3600D95BD0 /* View Controller */,
+				D41B8FA11EAC9A8E00B08667 /* Storyboards */,
 			);
 			path = "RGUB-client";
 			sourceTree = "<group>";
@@ -115,13 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				990DA51E1EAB7AAE00D95BD0 /* ViewController.swift */,
-				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
-				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
 				9920698C1EABD1930003C6A8 /* RegistrationVC.swift */,
 				9920698A1EABB6040003C6A8 /* LoginVC.swift */,
 				9920698E1EABEFD40003C6A8 /* MyProfileVC.swift */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D41B8FA11EAC9A8E00B08667 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				992069881EABB5BD0003C6A8 /* Auth.storyboard */,
+				990DA5201EAB7AAE00D95BD0 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
